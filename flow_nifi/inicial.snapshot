@@ -1,0 +1,101 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "funnels" : [ ],
+        "identifier" : "f8d692ff-5932-383e-aa94-ce34f25e91d3",
+        "inputPorts" : [ ],
+        "labels" : [ ],
+        "name" : "prueba_nifi",
+        "outputPorts" : [ ],
+        "position" : {
+          "x" : 296.0,
+          "y" : 184.0
+        },
+        "processGroups" : [ ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.3"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "f8d692ff-5932-383e-aa94-ce34f25e91d3",
+          "identifier" : "8e5855d4-f063-36dc-9bf4-635b9244a781",
+          "name" : "ExecuteProcess",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 272.0,
+            "y" : 240.0
+          },
+          "properties" : {
+            "Redirect Error Stream" : "false",
+            "Argument Delimiter" : " "
+          },
+          "propertyDescriptors" : {
+            "Command" : {
+              "displayName" : "Command",
+              "identifiesControllerService" : false,
+              "name" : "Command",
+              "sensitive" : false
+            },
+            "Redirect Error Stream" : {
+              "displayName" : "Redirect Error Stream",
+              "identifiesControllerService" : false,
+              "name" : "Redirect Error Stream",
+              "sensitive" : false
+            },
+            "Working Directory" : {
+              "displayName" : "Working Directory",
+              "identifiesControllerService" : false,
+              "name" : "Working Directory",
+              "sensitive" : false
+            },
+            "Argument Delimiter" : {
+              "displayName" : "Argument Delimiter",
+              "identifiesControllerService" : false,
+              "name" : "Argument Delimiter",
+              "sensitive" : false
+            },
+            "Batch Duration" : {
+              "displayName" : "Batch Duration",
+              "identifiesControllerService" : false,
+              "name" : "Batch Duration",
+              "sensitive" : false
+            },
+            "Command Arguments" : {
+              "displayName" : "Command Arguments",
+              "identifiesControllerService" : false,
+              "name" : "Command Arguments",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.ExecuteProcess",
+          "yieldDuration" : "1 sec"
+        } ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : { }
+    }
+  }
+}
