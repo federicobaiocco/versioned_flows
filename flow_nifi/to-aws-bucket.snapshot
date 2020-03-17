@@ -210,11 +210,11 @@
             "Multipart Part Size" : "5 GB",
             "Object Key" : "${filename}",
             "Multipart Threshold" : "5 GB",
-            "Bucket" : "fbaiocco-bucket",
+            "Bucket" : "fbaiocco-s3-bucket",
             "Multipart Upload AgeOff Interval" : "60 min",
             "Write Permission User List" : "${s3.permissions.write.users}",
             "Communications Timeout" : "30 secs",
-            "Region" : "us-east-2",
+            "Region" : "us-east-1",
             "Read Permission User List" : "${s3.permissions.read.users}"
           },
           "propertyDescriptors" : {
