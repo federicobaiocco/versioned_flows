@@ -87,7 +87,9 @@
           "scheduledState" : "ENABLED",
           "schedulingPeriod" : "0 sec",
           "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
+          "style" : {
+            "background-color" : "#58b075"
+          },
           "type" : "org.apache.nifi.processors.standard.ExecuteProcess",
           "yieldDuration" : "1 sec"
         } ],
