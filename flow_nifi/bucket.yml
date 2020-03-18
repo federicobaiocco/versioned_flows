@@ -2,8 +2,7 @@ flows:
   d38994a7-19a8-473c-bd98-3ad606b35346: {ver: 4, file: inicial.snapshot, comments: se
       guarda a un archivo JSON, author: anonymous, created: 1584469713619, flowName: inicial,
     flowDesc: ''}
-  8591b2d5-0bca-42d4-975c-a248ea1dfaa9: {ver: 2, file: to-aws-bucket.snapshot, comments: changed
-      bucket, author: anonymous, created: 1584473747497, flowName: to-aws-bucket,
-    flowDesc: ''}
+  8591b2d5-0bca-42d4-975c-a248ea1dfaa9: {ver: 3, file: to-aws-bucket.snapshot, comments: csv
+      file, author: anonymous, created: 1584540411662, flowName: to-aws-bucket, flowDesc: ''}
 layoutVer: 1
 bucketId: 03eeff5b-ba14-4972-8408-25002a3ece87
