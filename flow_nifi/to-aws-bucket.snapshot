@@ -462,7 +462,7 @@
             "Read ACL User List" : "${s3.permissions.readacl.users}",
             "Storage Class" : "Standard",
             "Multipart Part Size" : "5 GB",
-            "Object Key" : "${filename}",
+            "Object Key" : "raw/${filename}",
             "Multipart Threshold" : "5 GB",
             "Bucket" : "fbaiocco-s3-bucket",
             "Multipart Upload AgeOff Interval" : "60 min",
