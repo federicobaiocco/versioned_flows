@@ -267,6 +267,7 @@
             "group" : "org.apache.nifi",
             "version" : "1.11.3"
           },
+          "comments" : "",
           "componentType" : "CONTROLLER_SERVICE",
           "controllerServiceApis" : [ {
             "bundle" : {
@@ -706,8 +707,8 @@
           },
           "properties" : {
             "redirect-cookie-policy" : "default",
-            "Filename" : "data.csv",
-            "URL" : "http://apis.datos.gob.ar/series/api/series/?limit=1000&ids=11.3_VMATC_2004_M_12:percent_change,11.3_VMATC_2004_M_12:percent_change_a_year_ago&format=csv",
+            "Filename" : "exportaciones.csv",
+            "URL" : "http://apis.datos.gob.ar/series/api/series?ids=83.1_EMD_2004_A_30&collapse=year&collapse_aggregation=sum&format=csv",
             "Connection Timeout" : "30 sec",
             "Data Timeout" : "30 sec",
             "Follow Redirects" : "false"
