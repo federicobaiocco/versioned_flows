@@ -2,6 +2,8 @@ flows:
   d38994a7-19a8-473c-bd98-3ad606b35346: {ver: 4, file: inicial.snapshot, comments: se
       guarda a un archivo JSON, author: anonymous, created: 1584469713619, flowName: inicial,
     flowDesc: ''}
+  8f2d2984-3e01-4ac2-9251-51a15abc212c: {ver: 1, file: primestone.snapshot, comments: '',
+    author: anonymous, created: 1586814358931, flowName: primestone, flowDesc: ''}
   8591b2d5-0bca-42d4-975c-a248ea1dfaa9: {ver: 5, file: to-aws-bucket.snapshot, comments: Changed
       dataset, author: anonymous, created: 1585166319408, flowName: to-aws-bucket,
     flowDesc: ''}
